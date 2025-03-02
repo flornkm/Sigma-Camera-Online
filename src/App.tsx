@@ -424,7 +424,7 @@ function App() {
           backgroundRepeat: "repeat",
         }}
       />
-      <div className="flex flex-col md:flex-row items-center justify-center h-full overflow-hidden">
+      <div className="flex flex-row items-center justify-center h-full overflow-hidden max-[250px]:flex-col">
         <div className="flex-1 h-full w-full p-2 relative z-20">
           <div className="w-full h-full relative overflow-hidden bg-gradient-to-tr from-neutral-900 to-neutral-800 rounded-lg p-4 shadow-inner shadow-black">
             <div className="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/50 to-white/25 opacity-10 rounded-lg" />
