@@ -1,0 +1,8 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-gradient-to-tr from-neutral-200 to-neutral-300;
+}
